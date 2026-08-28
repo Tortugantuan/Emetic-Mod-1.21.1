@@ -5,7 +5,6 @@ import net.sirnautilus.emeticmod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
-import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 
@@ -14,7 +13,7 @@ import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 public class EmeticMod {
     public static final String MOD_ID = "emeticmod";
 
-    public EmeticMod(IEventBus modEventBus, ModContainer modContainer) {
+    public EmeticMod(IEventBus modEventBus) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
