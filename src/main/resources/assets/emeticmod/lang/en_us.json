@@ -1,0 +1,11 @@
+{
+  "emetic.configuration.title": "Emetic Configs",
+  "emetic.configuration.section.emetic.common.toml": "Emetic Configs",
+  "emetic.configuration.section.emetic.common.toml.title": "Emetic Configs",
+  "emetic.configuration.items": "Item List",
+  "emetic.configuration.logDirtBlock": "Log Dirt Block",
+  "emetic.configuration.magicNumberIntroduction": "Magic Number Text",
+  "emetic.configuration.magicNumber": "Magic Number",
+
+  "item.emeticmod.emetic": "Vile Emetic"
+}
